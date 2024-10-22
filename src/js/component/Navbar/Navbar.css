@@ -1,0 +1,30 @@
+.C_Navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.C_Navbar .activo{
+
+    color:white;
+}
+/* navMenu */
+
+.navMenu{
+    position: absolute;
+    flex-direction: column;
+    gap: 0;
+    top: 70px;
+    left: -100%;
+    text-align: start;
+    width: 100%;
+    transition: 0.7s ease-in-out;
+    background-color: aliceblue;
+    padding: 10px;
+  }
+
+  .navMenu.active{
+    left: 0;
+  }
+
+  .navMenu li {
+    margin: 16px 0;
+  }
